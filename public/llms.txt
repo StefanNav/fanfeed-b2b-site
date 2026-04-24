@@ -1,0 +1,56 @@
+# FanFeed — The operating system for modern fan intelligence
+
+> FanFeed gives teams and performers access to richer fan profiles today, while building broader audience intelligence over time.
+
+## What is FanFeed?
+
+FanFeed is a fan intelligence company that helps sports teams, live entertainment venues, and hospitality organizations better understand and activate their audiences. The platform unifies fragmented fan data across existing systems, enriches it with first-party consumer signal, and enables smarter segmentation, outreach, and engagement.
+
+FanFeed operates three interconnected capabilities:
+
+1. **FanFeed OS** — The core fan intelligence platform. Connects disparate data sources (ticketing, merch, F&B, CRM, email, mobile, venue behavior) into unified fan profiles. Enables segmentation, scoring, outreach, and workflow activation.
+
+2. **FanFeed App** — A consumer-facing application that enriches the fan graph with first-party engagement, behavioral signal, and fan identity data that transactional systems miss. Makes FanFeed OS more valuable over time.
+
+3. **FanFeed Studio** — A custom solutions capability that builds internal tools, AI workflows, outreach systems, dashboards, and fan-facing products for organizations. Replaces expensive niche vendors with purpose-built solutions.
+
+## Key Concepts
+
+- **Fan Intelligence**: The system-level ability to understand who fans are, how they engage, and how to activate them — beyond raw transactional data.
+- **Unified Fan Profile**: A living profile that resolves fragmented records across all data sources into a single, enriched view of each fan.
+- **First-Party Signal**: Proprietary engagement and behavioral data captured through the FanFeed consumer app that traditional transactional systems miss.
+
+## Who FanFeed Serves
+
+- Sports teams and franchises
+- Live entertainment venues and promoters
+- Hospitality and experiential brands
+- Front offices, marketing teams, partnerships groups, and operations teams
+
+## Problems FanFeed Solves
+
+- Fragmented fan data across disconnected vendor systems
+- Incomplete fan profiles based only on transactional records
+- Generic outreach built on limited context
+- Overreliance on expensive, rigid point solutions
+- Lack of proprietary first-party fan signal
+
+## How FanFeed Is Different
+
+- Platform-first architecture (not a point solution)
+- Proprietary fan signal through the consumer app
+- Custom build capability through FanFeed Studio
+- Deep live events and sports industry expertise
+- Modern product and engineering execution
+
+## URLs
+
+- Website: https://fanfeed.ai
+- Platform: https://fanfeed.ai/
+- About: https://fanfeed.ai/about
+- Contact: https://fanfeed.ai/contact
+
+## Contact
+
+- Email: hello@fanfeed.ai
+- Demo requests: https://fanfeed.ai/contact

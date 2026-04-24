@@ -1,0 +1,131 @@
+# FanFeed — Complete Product and Company Reference
+
+> FanFeed gives teams and performers access to richer fan profiles today, while building broader audience intelligence over time.
+
+## Company Overview
+
+FanFeed is a fan intelligence company built at the intersection of fan engagement, data infrastructure, and product execution. The company helps modern sports and live entertainment organizations better understand and activate their audiences through a unified platform, consumer application, and custom solutions capability.
+
+## Platform
+
+### FanFeed OS (Core Platform)
+
+FanFeed OS is the operating system for modern fan intelligence. It connects disparate data sources into one intelligent platform, building a more complete profile of every fan.
+
+**Data sources connected:**
+- Ticketing systems
+- Merchandise platforms
+- Food and beverage data
+- CRM systems
+- Email platforms
+- Mobile and digital engagement
+- Venue behavior signals
+- FanFeed App first-party data
+
+**Core capabilities:**
+- Unify: Connect fan data across existing systems
+- Enrich: Strengthen profiles with behavioral and contextual signal
+- Activate: Turn fan intelligence into outreach, experiences, and workflows
+
+**Outputs:**
+- Fan segmentation
+- Fan scoring
+- Insights and analytics
+- Outreach activation
+- Personalized offers
+- Internal tools and workflows
+
+### FanFeed App
+
+The FanFeed App is a consumer-facing touchpoint that enriches the fan graph with deeper first-party signal. It captures engagement, affinity, behavior, and fan identity data that traditional transactional systems miss.
+
+**Strategic value:**
+- Richer first-party engagement data
+- Stronger fan identity resolution
+- Deeper context around fandom and preferences
+- Long-term profile value that compounds over time
+- Proprietary signal that generic CRMs cannot generate
+
+**How it strengthens FanFeed OS:**
+Fan activity inside the App feeds back into FanFeed OS, enriching profiles, sharpening segmentation, and improving downstream activation.
+
+### FanFeed Studio
+
+FanFeed Studio is a custom solutions capability that helps teams replace bloated point solutions, launch new capabilities quickly, and build tools they actually own.
+
+**What Studio builds:**
+- Outreach systems (email, messaging workflows)
+- Custom chat tools and fan-facing assistants
+- Internal dashboards for ops, partnerships, engagement
+- Campaign workflow systems
+- AI-powered automations and copilots
+- Fan-facing digital experiences
+
+## Target Audience
+
+- Sports teams and franchises (MLB, NBA, NFL, NHL, MLS, college athletics)
+- Live entertainment venues and promoters
+- Hospitality and experiential brands
+- Operators who need to understand and activate fans
+
+**Buyer personas:**
+- Front office leadership
+- Marketing and fan engagement teams
+- Partnerships and sponsorship teams
+- Operations and analytics teams
+- Technology and digital teams
+
+## Market Problems Addressed
+
+1. **Fragmented systems**: Critical fan data lives across vendors that do not connect
+2. **Incomplete profiles**: Fans appear as partial records across multiple systems
+3. **Disconnected activation**: Campaigns built on limited, outdated context
+4. **Too many point solutions**: Teams overpay for narrow tools
+5. **No proprietary signal**: Generic platforms cannot generate first-party fan insight
+
+## Competitive Differentiation
+
+- **Platform-first**: FanFeed OS is the central intelligence layer, not a feature add-on
+- **Signal advantage**: The App generates proprietary fan data no competitor can replicate
+- **Execution advantage**: Studio delivers custom tools faster than traditional vendors
+- **Industry depth**: Deep roots in live events, ticketing, and fan engagement
+- **Modern build**: Fast, scalable development and iteration capability
+
+## Use Cases
+
+- Segment fans with behavioral and value-based precision
+- Improve email, SMS, and campaign outreach relevance
+- Identify superfans and high-value segments earlier
+- Create personalized fan experiences and offers
+- Replace expensive vendor subscriptions with purpose-built tools
+- Build AI-powered workflows for internal operations
+- Strengthen fan data foundation for strategic decisions
+
+## Partners
+
+FanFeed works with teams, artists, venues, and creators including:
+- **Snapback Sports** — Leading digital sports media brand reaching over 1.5 million fans through highly engaging sports content
+- **Kygo** — Globally recognized dance music artist with 28M+ monthly Spotify listeners and millions of social followers
+- **Snap! Mobile** — Community engagement platform powering fundraising and operations for over 150,000 youth programs and 12.5 million participants
+- **Palm Tree Crew** — Global lifestyle and entertainment platform blending premium live events, hospitality, and culture across U.S. and European festivals
+
+## Leadership
+
+- **Cole Rubin**: Deep live events and ticketing expertise with strong industry relationships and commercial insight
+- **Product + Technical Leadership**: Capable of designing and shipping modern platforms, tools, and fan-facing experiences
+
+## Company Mission
+
+To build the system that helps organizations truly understand their fans — and turn that understanding into better experiences, better decisions, and stronger growth.
+
+## Vision
+
+The future fan stack will be more unified, more intelligent, and more adaptable. FanFeed is building the system layer underneath that future.
+
+## Contact
+
+- Website: https://fanfeed.ai
+- Email: hello@fanfeed.ai
+- Demo requests: https://fanfeed.ai/contact
+- Twitter: https://twitter.com/fanfeed
+- LinkedIn: https://linkedin.com/company/fanfeed
