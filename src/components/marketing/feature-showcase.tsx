@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 import { SegmentBuilder } from "./segment-builder";
 import { ActionEngine } from "./action-engine";
@@ -149,22 +150,32 @@ export function FeatureShowcase() {
         {/* Title row with pagination dots */}
         <SectionHeader
           title={
-            <span
-              key={active.id}
-              className="block"
-              style={{ animation: "fade-in-up 0.7s cubic-bezier(0.16,1,0.3,1) both" }}
-            >
-              {active.title}
-            </span>
+            <AnimatePresence mode="wait">
+              <motion.span
+                key={active.id}
+                className="block"
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -4 }}
+                transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+              >
+                {active.title}
+              </motion.span>
+            </AnimatePresence>
           }
           description={
-            <span
-              key={active.id}
-              className="block"
-              style={{ animation: "fade-in-up 0.7s cubic-bezier(0.16,1,0.3,1) 0.08s both" }}
-            >
-              {active.description}
-            </span>
+            <AnimatePresence mode="wait">
+              <motion.span
+                key={active.id}
+                className="block"
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -4 }}
+                transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+              >
+                {active.description}
+              </motion.span>
+            </AnimatePresence>
           }
           align="row"
         >
@@ -218,19 +229,23 @@ export function FeatureShowcase() {
         </div>
         {/* Feature Component Container — only active tab rendered */}
         <div className="relative">
-          {(() => {
-            const Comp = active.component;
-            return (
-              <div
-                key={active.id}
-                aria-hidden="true"
-                role="img"
-                style={{ animation: "fade-in-up 0.7s cubic-bezier(0.16,1,0.3,1) 0.05s both" }}
-              >
-                <Comp />
-              </div>
-            );
-          })()}
+          <AnimatePresence mode="wait">
+            {(() => {
+              const Comp = active.component;
+              return (
+                <motion.div
+                  key={active.id}
+                  aria-hidden="true"
+                  role="img"
+                  initial={{ opacity: 0, y: 12 }}
+                  animate={{ opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.16, 1, 0.3, 1] } }}
+                  exit={{ opacity: 0, transition: { duration: 0.2 } }}
+                >
+                  <Comp />
+                </motion.div>
+              );
+            })()}
+          </AnimatePresence>
         </div>
       </div>
     </section>

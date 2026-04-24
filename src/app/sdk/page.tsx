@@ -10,6 +10,9 @@ import {
   IconCubeFillDuo18,
   IconChartTrendUpFillDuo18,
   IconSparkleFillDuo18,
+  IconBoltLightningFillDuo18,
+  IconRocketFillDuo18,
+  IconDatabaseFillDuo18,
 } from "nucleo-ui-fill-duo-18";
 import { SpecialButton } from "@/components/ui/special-button";
 
@@ -90,6 +93,88 @@ export default function SdkOnePager() {
 
       {/* ── Content Container ── */}
       <div className="mx-auto max-w-[1200px] px-6 pt-16">
+
+        {/* ── Section: What is FanFeed ── */}
+        <section className="mb-20">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left Column: Grounding Text + Three Pillars */}
+            <div className="space-y-6">
+              <div>
+                <h2 className="text-xl md:text-2xl font-semibold text-[#2d2133] mb-4">What is FanFeed</h2>
+                <p className="text-gray-500 text-[15px] lg:text-base leading-relaxed max-w-lg">
+                  FanFeed gives teams and performers access to richer fan profiles, while building broader audience intelligence over time.
+                </p>
+              </div>
+
+              <div className="space-y-3">
+                <div className="bg-white p-4 rounded-[1.5rem] border border-border/50 flex items-center gap-4 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)]">
+                  <IconRocketFillDuo18 className="w-5 h-5 text-[#7c5cfc] shrink-0" />
+                  <div>
+                    <span className="text-sm lg:text-base font-semibold text-[#2d2133]">FanFeed App</span>
+                    <p className="text-[13px] text-gray-500 leading-snug mt-0.5">A consumer app that captures first-party fan signal, engagement, behavior, and identity data that transactional systems miss.</p>
+                  </div>
+                </div>
+                <div className="bg-white p-4 rounded-[1.5rem] border border-border/50 flex items-center gap-4 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)]">
+                  <IconDatabaseFillDuo18 className="w-5 h-5 text-[#7c5cfc] shrink-0" />
+                  <div>
+                    <span className="text-sm lg:text-base font-semibold text-[#2d2133]">FanFeed OS</span>
+                    <p className="text-[13px] text-gray-500 leading-snug mt-0.5">The core intelligence platform. Unifies data sources into fan profiles and enables segmentation, scoring, and activation.</p>
+                  </div>
+                </div>
+                <div className="bg-white p-4 rounded-[1.5rem] border border-border/50 flex items-center gap-4 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)]">
+                  <IconSparkleFillDuo18 className="w-5 h-5 text-[#7c5cfc] shrink-0" />
+                  <div>
+                    <span className="text-sm lg:text-base font-semibold text-[#2d2133]">FanFeed Studio</span>
+                    <p className="text-[13px] text-gray-500 leading-snug mt-0.5">Custom-built tools, AI workflows, and fan-facing products that replace expensive niche vendors.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column: Instant Sync Card */}
+            <div className="bg-white rounded-[2rem] border border-border/50 p-8 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)] flex flex-col gap-4 relative">
+              <span className="absolute -top-3 right-6 text-[10px] font-semibold bg-[#7c5cfc] text-white px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                Patented
+              </span>
+              
+              <div className="flex items-center gap-3">
+                <IconBoltLightningFillDuo18 className="w-8 h-8 text-[#7c5cfc]" />
+                <h4 className="font-semibold text-lg text-[#2d2133]">Instant Sync</h4>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-8 items-center">
+                <p className="text-[13px] lg:text-[15px] text-gray-500 leading-relaxed flex-1">
+                  Fans download the app, sync once, and FanFeed reads their content trail going back 10+ years in seconds - providing an unprecedented look into each <strong>fan</strong>.
+                </p>
+                
+                <div className="flex items-center text-[11px] text-gray-400 whitespace-nowrap shrink-0">
+                  <span className="mr-3 text-right leading-snug">
+                    Every<br/>interaction<br/>becomes
+                  </span>
+                  
+                  <div className="flex items-center mr-3">
+                    <div className="w-3 sm:w-4 h-px bg-[#e5e0ff]"></div>
+                    <div className="w-px h-[72px] bg-[#e5e0ff] relative">
+                      <div className="absolute -left-[3px] -top-[3px] w-[7px] h-[7px] rounded-full bg-[#dcd6ff]"></div>
+                      <div className="absolute -left-[3px] top-1/2 -translate-y-1/2 w-[7px] h-[7px] rounded-full bg-[#dcd6ff]"></div>
+                      <div className="absolute -left-[3px] -bottom-[3px] w-[7px] h-[7px] rounded-full bg-[#dcd6ff]"></div>
+                      
+                      <div className="absolute top-0 left-0 w-3 sm:w-4 h-px bg-[#e5e0ff]"></div>
+                      <div className="absolute top-1/2 -translate-y-1/2 left-0 w-3 sm:w-4 h-px bg-[#e5e0ff]"></div>
+                      <div className="absolute bottom-0 left-0 w-3 sm:w-4 h-px bg-[#e5e0ff]"></div>
+                    </div>
+                  </div>
+
+                  <div className="space-y-2">
+                    <div className="bg-[#f5f3ff] text-[#7c5cfc] px-6 py-1.5 text-xs rounded-full font-medium text-center border border-[#e5e0ff] min-w-[120px]">Identifiable</div>
+                    <div className="bg-[#f5f3ff] text-[#7c5cfc] px-6 py-1.5 text-xs rounded-full font-medium text-center border border-[#e5e0ff] min-w-[120px]">Actionable</div>
+                    <div className="bg-[#7c5cfc] text-white px-6 py-1.5 text-xs rounded-full font-medium text-center shadow-md min-w-[120px]">Monetizable</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* ── Section: What You Get ── */}
         <section className="mb-20">
