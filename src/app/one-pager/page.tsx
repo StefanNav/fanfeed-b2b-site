@@ -111,13 +111,13 @@ export default function OnePager() {
                 <span className="font-bold text-[8.5px] md:text-[11px] lg:text-xs tracking-wider uppercase">FanFeed Proprietary Intelligence</span>
               </div>
               <div className="flex flex-col sm:flex-row gap-1.5 sm:gap-6 text-[9.5px] md:text-xs lg:text-[13px] text-gray-500 leading-relaxed">
-                <ul className="space-y-1.5 md:space-y-3 flex-1 list-none p-0 m-0">
-                  <li>- <span className="font-semibold text-[#2d2133]">10+ years</span> of event history</li>
-                  <li>- Preferences and interests</li>
+                <ul className="space-y-1.5 md:space-y-3 flex-1 list-disc pl-4 marker:text-[#7c5cfc]/40">
+                  <li><span className="font-semibold text-[#2d2133]">10+ years</span> of event history</li>
+                  <li>Preferences and interests</li>
                 </ul>
-                <ul className="space-y-1.5 md:space-y-3 flex-1 list-none p-0 m-0">
-                  <li>- Behavioral patterns</li>
-                  <li>- Social engagement signals</li>
+                <ul className="space-y-1.5 md:space-y-3 flex-1 list-disc pl-4 marker:text-[#7c5cfc]/40">
+                  <li>Behavioral patterns</li>
+                  <li>Social engagement signals</li>
                 </ul>
               </div>
             </div>
@@ -303,17 +303,17 @@ export default function OnePager() {
         <div className="mb-20">
           <h2 className="text-xl md:text-2xl font-semibold text-[#2d2133] mb-6">How FanFeed Fits</h2>
           <div className="flex flex-col sm:flex-row items-stretch gap-4">
-            <div className="flex-1 bg-white rounded-2xl border border-border/50 p-5 text-center space-y-2">
-              <span className="text-[#7c5cfc] font-bold text-[11px] uppercase tracking-wider">Standalone App</span>
-              <p className="text-[13px] text-gray-500 leading-relaxed">Your own branded fan experience, ready to launch.</p>
+            <div className="flex-1 bg-white rounded-[1.5rem] border border-border/50 p-6 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)] space-y-2">
+              <h4 className="font-semibold text-base lg:text-lg text-[#2d2133]">Standalone App</h4>
+              <p className="text-[13px] lg:text-[15px] text-gray-500 leading-relaxed">A direct line to your fans, on your terms.</p>
             </div>
-            <div className="flex-1 bg-white rounded-2xl border border-border/50 p-5 text-center space-y-2">
-              <span className="text-[#7c5cfc] font-bold text-[11px] uppercase tracking-wider">Embedded in Your App</span>
-              <p className="text-[13px] text-gray-500 leading-relaxed">Drop FanFeed into your existing app with our SDK.</p>
+            <div className="flex-1 bg-white rounded-[1.5rem] border border-border/50 p-6 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)] space-y-2">
+              <h4 className="font-semibold text-base lg:text-lg text-[#2d2133]">Embedded in Your App</h4>
+              <p className="text-[13px] lg:text-[15px] text-gray-500 leading-relaxed">Drop FanFeed into your existing app with our SDK.</p>
             </div>
-            <div className="flex-1 bg-white rounded-2xl border border-border/50 p-5 text-center space-y-2">
-              <span className="text-[#7c5cfc] font-bold text-[11px] uppercase tracking-wider">Web + Widget (UGC-Only)</span>
-              <p className="text-[13px] text-gray-500 leading-relaxed">Capture fan content through a lightweight web embed.</p>
+            <div className="flex-1 bg-white rounded-[1.5rem] border border-border/50 p-6 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)] space-y-2">
+              <h4 className="font-semibold text-base lg:text-lg text-[#2d2133]">Web + Widget (UGC-Only)</h4>
+              <p className="text-[13px] lg:text-[15px] text-gray-500 leading-relaxed">Capture fan content through a lightweight web embed.</p>
             </div>
           </div>
         </div>

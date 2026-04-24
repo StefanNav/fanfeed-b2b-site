@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import {
-  IconBoltLightningFillDuo18,
-  IconShieldCheckFillDuo18,
-  IconPuzzlePieceFillDuo18,
-  IconLayersFillDuo18,
+  IconFeatherFillDuo18,
+  IconShieldKeyFillDuo18,
+  IconWindowPointerFillDuo18,
+  IconGamingBlocksFillDuo18,
   IconClockFillDuo18,
 } from "nucleo-ui-fill-duo-18";
 import { SpecialButton } from "@/components/ui/special-button";
@@ -45,7 +45,7 @@ export default function SdkOnePager() {
       </header>
 
       {/* ── Hero ── */}
-      <div className="w-full border-b md:-mt-20 border-gray-200 relative bg-gradient-to-b from-[#f5f5f5] to-[#f9f8f6] z-10 overflow-hidden">
+      <div className="w-full border-b border-gray-200 relative bg-gradient-to-b from-[#f5f5f5] to-[#f9f8f6] z-10 overflow-hidden">
         {/* Orbs Background */}
         <div className="pointer-events-none absolute inset-0 z-0 h-[220rem] w-full overflow-hidden hidden md:block">
           <img
@@ -56,27 +56,24 @@ export default function SdkOnePager() {
           />
         </div>
         <div className="mx-auto max-w-[1200px] px-6 pt-10 lg:pt-16 pb-0 relative z-10">
-          <div className="flex flex-col lg:flex-row gap-0 lg:gap-12 items-end">
+          <div className="flex flex-col lg:flex-row gap-0 lg:gap-12 items-center">
             {/* Text */}
             <div className="flex-1 space-y-4 lg:space-y-5 lg:pr-8 pb-12 lg:pb-16 w-full">
               <span className="inline-block text-[#7c5cfc] font-bold tracking-widest text-[11px] uppercase">
                 Embedded SDK
               </span>
-              <h1 className="text-3xl sm:text-4xl lg:text-[46px] font-semibold leading-[1.15] tracking-tight text-[#2d2133] lg:max-w-2xl">
-                FanFeed, inside your app.
-              </h1>
-              <p className="text-base lg:text-lg text-gray-500 leading-relaxed max-w-xl pt-1">
+              <p className="text-base lg:text-lg text-gray-500 leading-relaxed max-w-xl">
                 You have an app, but it doesn't capture who your fans are.
               </p>
-              <p className="text-base lg:text-lg text-[#2d2133] font-medium leading-relaxed max-w-xl">
+              <h1 className="text-3xl sm:text-4xl lg:text-[46px] font-semibold leading-[1.15] tracking-tight text-[#2d2133] lg:max-w-2xl">
                 FanFeed plugs directly into your app. No rebuild.
-              </p>
+              </h1>
             </div>
             {/* Visual */}
-            <div className="relative shrink-0 flex justify-center lg:justify-end w-full lg:w-auto -mb-px">
-              <div className="relative w-[340px] h-[220px] sm:w-[460px] sm:h-[340px] lg:w-[520px] lg:h-[400px] z-10">
+            <div className="relative shrink-0 flex justify-center lg:justify-end w-full lg:w-auto -mb-px mt-[-10px] sm:mt-[-20px] lg:mt-[-30px]">
+              <div className="relative w-[280px] h-[185px] sm:w-[400px] sm:h-[300px] lg:w-[470px] lg:h-[370px] z-10">
                 <Image
-                  src="/img/SDK_image.png"
+                  src="/img/SDK_Hero2.png"
                   alt="FanFeed embedded inside a partner app"
                   fill
                   className="object-contain object-bottom lg:object-right-bottom"
@@ -182,47 +179,56 @@ export default function SdkOnePager() {
               Built to drop in, not disrupt.
             </h2>
             <p className="text-gray-500 text-sm lg:text-base max-w-xl mx-auto leading-relaxed">
-              FanFeed is designed to work inside your existing app architecture. No forks, no rewrites, no new login flows.
+              FanFeed is designed to work inside your existing app architecture.<br />
+              No forks, no rewrites, no new login flows.
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <div className="bg-[#f9f7ff] rounded-2xl border border-[#7c5cfc]/15 p-6 lg:p-7 space-y-3">
-              <div className="bg-white w-11 h-11 rounded-xl flex items-center justify-center shadow-sm border border-[#7c5cfc]/10">
-                <IconBoltLightningFillDuo18 className="w-5 h-5 text-[#7c5cfc]" />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-[1.5rem] border border-border/50 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)] space-y-4">
+              <div className="flex items-center gap-3">
+                <div className="bg-[#7c5cfc] w-12 h-12 rounded-[1rem] flex items-center justify-center text-white shadow-sm">
+                  <IconFeatherFillDuo18 className="w-6 h-6" />
+                </div>
+                <h4 className="font-semibold text-base lg:text-lg text-[#2d2133]">Lightweight SDK</h4>
               </div>
-              <h4 className="font-semibold text-[15px] text-[#2d2133]">Lightweight SDK</h4>
-              <p className="text-[13px] text-gray-500 leading-relaxed">
+              <p className="text-[13px] lg:text-[15px] text-gray-500 leading-relaxed">
                 Small footprint, no bloat. Installs in minutes, runs without overhead.
               </p>
             </div>
 
-            <div className="bg-[#f9f7ff] rounded-2xl border border-[#7c5cfc]/15 p-6 lg:p-7 space-y-3">
-              <div className="bg-white w-11 h-11 rounded-xl flex items-center justify-center shadow-sm border border-[#7c5cfc]/10">
-                <IconShieldCheckFillDuo18 className="w-5 h-5 text-[#7c5cfc]" />
+            <div className="bg-white p-6 rounded-[1.5rem] border border-border/50 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)] space-y-4">
+              <div className="flex items-center gap-3">
+                <div className="bg-[#7c5cfc] w-12 h-12 rounded-[1rem] flex items-center justify-center text-white shadow-sm">
+                  <IconShieldKeyFillDuo18 className="w-6 h-6" />
+                </div>
+                <h4 className="font-semibold text-base lg:text-lg text-[#2d2133]">Works with Existing Auth</h4>
               </div>
-              <h4 className="font-semibold text-[15px] text-[#2d2133]">Works with Existing Auth</h4>
-              <p className="text-[13px] text-gray-500 leading-relaxed">
+              <p className="text-[13px] lg:text-[15px] text-gray-500 leading-relaxed">
                 No new login flow. Hooks into your current authentication seamlessly.
               </p>
             </div>
 
-            <div className="bg-[#f9f7ff] rounded-2xl border border-[#7c5cfc]/15 p-6 lg:p-7 space-y-3">
-              <div className="bg-white w-11 h-11 rounded-xl flex items-center justify-center shadow-sm border border-[#7c5cfc]/10">
-                <IconPuzzlePieceFillDuo18 className="w-5 h-5 text-[#7c5cfc]" />
+            <div className="bg-white p-6 rounded-[1.5rem] border border-border/50 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)] space-y-4">
+              <div className="flex items-center gap-3">
+                <div className="bg-[#7c5cfc] w-12 h-12 rounded-[1rem] flex items-center justify-center text-white shadow-sm">
+                  <IconWindowPointerFillDuo18 className="w-6 h-6" />
+                </div>
+                <h4 className="font-semibold text-base lg:text-lg text-[#2d2133]">No UX Disruption</h4>
               </div>
-              <h4 className="font-semibold text-[15px] text-[#2d2133]">No UX Disruption</h4>
-              <p className="text-[13px] text-gray-500 leading-relaxed">
+              <p className="text-[13px] lg:text-[15px] text-gray-500 leading-relaxed">
                 Drops in as a native module. Your users won't feel a seam.
               </p>
             </div>
 
-            <div className="bg-[#f9f7ff] rounded-2xl border border-[#7c5cfc]/15 p-6 lg:p-7 space-y-3">
-              <div className="bg-white w-11 h-11 rounded-xl flex items-center justify-center shadow-sm border border-[#7c5cfc]/10">
-                <IconLayersFillDuo18 className="w-5 h-5 text-[#7c5cfc]" />
+            <div className="bg-white p-6 rounded-[1.5rem] border border-border/50 shadow-[0_4px_24px_0_rgba(124,92,252,0.10)] space-y-4">
+              <div className="flex items-center gap-3">
+                <div className="bg-[#7c5cfc] w-12 h-12 rounded-[1rem] flex items-center justify-center text-white shadow-sm">
+                  <IconGamingBlocksFillDuo18 className="w-6 h-6" />
+                </div>
+                <h4 className="font-semibold text-base lg:text-lg text-[#2d2133]">Modular Rollout</h4>
               </div>
-              <h4 className="font-semibold text-[15px] text-[#2d2133]">Modular Rollout</h4>
-              <p className="text-[13px] text-gray-500 leading-relaxed">
+              <p className="text-[13px] lg:text-[15px] text-gray-500 leading-relaxed">
                 Ship one feature at a time. Start small, expand when ready.
               </p>
             </div>
