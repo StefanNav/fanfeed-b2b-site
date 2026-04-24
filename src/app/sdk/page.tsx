@@ -7,6 +7,9 @@ import {
   IconWindowPointerFillDuo18,
   IconGamingBlocksFillDuo18,
   IconClockFillDuo18,
+  IconCubeFillDuo18,
+  IconChartTrendUpFillDuo18,
+  IconSparkleFillDuo18,
 } from "nucleo-ui-fill-duo-18";
 import { SpecialButton } from "@/components/ui/special-button";
 
@@ -94,7 +97,8 @@ export default function SdkOnePager() {
           <div className="grid md:grid-cols-3 gap-6">
             {/* Product */}
             <div className="bg-white rounded-2xl border border-border/50 p-6 lg:p-8 shadow-[0_4px_24px_0_rgba(124,92,252,0.08)] space-y-5">
-              <span className="inline-block text-[#7c5cfc] bg-[#f0edff] font-bold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-full">
+              <span className="inline-flex items-center gap-2 text-[#7c5cfc] bg-[#f0edff] border border-[#7c5cfc]/20 font-bold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-full">
+                <IconCubeFillDuo18 className="w-4 h-4" />
                 Product
               </span>
               <ul className="space-y-4 text-sm lg:text-[15px] text-gray-500 leading-relaxed">
@@ -119,7 +123,8 @@ export default function SdkOnePager() {
 
             {/* Business */}
             <div className="bg-white rounded-2xl border border-border/50 p-6 lg:p-8 shadow-[0_4px_24px_0_rgba(124,92,252,0.08)] space-y-5">
-              <span className="inline-block text-[#0d9488] bg-[#e6f7f5] font-bold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-full">
+              <span className="inline-flex items-center gap-2 text-[#0d9488] bg-[#e6f7f5] border border-[#0d9488]/20 font-bold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-full">
+                <IconChartTrendUpFillDuo18 className="w-4 h-4" />
                 Business
               </span>
               <ul className="space-y-4 text-sm lg:text-[15px] text-gray-500 leading-relaxed">
@@ -144,7 +149,8 @@ export default function SdkOnePager() {
 
             {/* Experience */}
             <div className="bg-white rounded-2xl border border-border/50 p-6 lg:p-8 shadow-[0_4px_24px_0_rgba(124,92,252,0.08)] space-y-5">
-              <span className="inline-block text-[#22c55e] bg-[#edfcf2] font-bold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-full">
+              <span className="inline-flex items-center gap-2 text-[#22c55e] bg-[#edfcf2] border border-[#22c55e]/20 font-bold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-full">
+                <IconSparkleFillDuo18 className="w-4 h-4" />
                 Experience
               </span>
               <ul className="space-y-4 text-sm lg:text-[15px] text-gray-500 leading-relaxed">
