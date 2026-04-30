@@ -139,3 +139,16 @@ body {
     scroll-padding-left: var(--carousel-padding-desktop);
   }
 }
+
+/* ── Capture-field background effect ── */
+
+@keyframes capture-soft-pulse {
+  0%, 100% { opacity: var(--box-opacity); filter: brightness(1); }
+  50% { opacity: calc(var(--box-opacity) + 0.18); filter: brightness(1.12); }
+}
+
+.capture-pulse {
+  animation: capture-soft-pulse 7s ease-in-out infinite;
+  animation-delay: var(--delay);
+}
+

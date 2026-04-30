@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { CaptureFieldOverlay } from "@/components/ui/capture-field";
 import { RetroGrid } from "@/components/ui/retro-grid";
 import { cn } from "@/lib/utils";
 import { SectionHeader } from "../ui/section";
@@ -22,6 +23,7 @@ export function CTASection({
   return (
     <section className={cn("relative overflow-hidden py-24 md:py-32 lg:py-32", className)}>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(124,92,252,0.1),transparent_70%)] z-0" />
+      <CaptureFieldOverlay />
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
         {/* <video
           ref={null}
